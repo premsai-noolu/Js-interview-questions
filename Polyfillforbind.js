@@ -18,7 +18,7 @@ let printfullName = function (hometown, state, country) {
 };
 let printmyname = printfullName.bind(name1, "Vizag", "Ap");
 console.log(printmyname);
-printmyname();
+printmyname("Ind");
 
 //polyfill for bind method
 Function.prototype.mybind = function (...args) {

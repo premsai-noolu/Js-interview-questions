@@ -3,7 +3,7 @@ let multiply = function (x, y) {
   console.log(x * y);
 };
 
-let multiplybytwo = multiply.bind(this, 2);
+let multiplybytwo = multiply.bind(this, 2, 3);
 multiplybytwo(5);
 
 let multiplybythree = multiply.bind(this, 3);
